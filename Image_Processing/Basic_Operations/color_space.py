@@ -1,0 +1,11 @@
+import cv2
+img_bgr = cv2.imread("african_elephant.jpg")
+img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
+img_hsv = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2HSV)
+img_gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
+cv2.imshow("Elephant-BGR", img_bgr)
+#cv2.imshow("Elephant-RGB", img_rgb)
+#cv2.imshow("Elephant-HSV", img_hsv)
+cv2.imshow("Elephant-GRAY", img_gray)
+cv2.waitKey(5000)
+cv2.destroyAllWindows()
