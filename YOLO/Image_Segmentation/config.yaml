@@ -1,0 +1,10 @@
+path: /home/berat/Artificial_Intelligence/Computer_Vision/YOLO/Image_Segmentation/car_seg_dataset
+
+train: train # relative to path
+val: val # relative to path
+test: test # relative to path
+
+# Class Names
+names: ['back_bumper', 'back_door', 'back_glass', 'back_light', 
+        'front_bumper', 'front_door', 'front_glass', 'front_light', 
+        'hood']
